@@ -1,10 +1,10 @@
 
 file1 = open('puzzle4.txt', 'r')
-lines = file1.readlines()
+Lines = file1.readlines()
 
 total = 0
 
-for line in lines:
+for line in Lines:
     stripped_line = line.strip()
     pairs = stripped_line.split(',')
 

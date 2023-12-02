@@ -1,6 +1,6 @@
 
 file1 = open('puzzle2.txt', 'r')
-lines = file1.readlines()
+Lines = file1.readlines()
 
 score_map = {
     "A X": 3,
@@ -15,9 +15,9 @@ score_map = {
 }
 
 total_score = 0
-for line in lines:
-    stripped_line = line.strip()
+for line in Lines:
+    strippedLine = line.strip()
 
-    total_score += score_map[stripped_line]
+    total_score += score_map[strippedLine]
 
 print(total_score)

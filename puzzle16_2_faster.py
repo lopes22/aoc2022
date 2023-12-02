@@ -79,7 +79,7 @@ while len(stack) > 0:
                 mem[open] = (cur_total, max(cur_min, cur_min_e))
 
 
-    if open == most or (cur_min == mins or cur_min_e == mins):
+    if open == most or (cur_min == mins and cur_min_e == mins):
         if cur_total > tmax:
             tmax = cur_total
         continue

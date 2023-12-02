@@ -1,13 +1,13 @@
 
 file1 = open('puzzle3.txt', 'r')
-lines = file1.readlines()
+Lines = file1.readlines()
 
 total = 0
 line_counter = 0
 line_1 = ''
 line_2 = ''
 
-for line in lines:
+for line in Lines:
     stripped_line = line.strip()
     line_counter += 1
 
